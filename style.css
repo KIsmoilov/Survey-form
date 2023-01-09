@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+#description {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  margin: 1rem auto 3rem auto;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+}
+
+#survey-form {
+  background: rgb(38, 38, 68, 0.9);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 65rem;
+  padding: 4rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+label {
+  font-size: 1.6rem;
+  color: white;
+}
+
+select,
+#name,
+#email,
+#number {
+  margin-bottom: 2rem;
+  margin-top: 0.4rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+}
+
+option {
+  color: black;
+}
+
+textarea {
+  height: 10rem;
+  min-height: 8rem;
+  width: 100%;
+  resize: vertical;
+  padding: 1rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  background-color: rgb(54, 175, 101);
+  border-radius: 0.5rem;
+  height: 4rem;
+  margin-top: 2rem;
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+}
+
+.checkbox,
+.radio-btn {
+  margin: 0.7rem 0;
+}
+
+#comments-label {
+  margin-top: 3rem;
+}
+
+#feature-label {
+  margin-top: 2rem;
+}
