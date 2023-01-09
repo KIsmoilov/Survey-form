@@ -5,5 +5,5 @@
 </div>
 
 <div align = "center">
-<img width="" height = "" src="./src/images/screen.png" alt="screenshot" />
+<img width="" height = "" src="./screen.png" alt="screenshot" />
 </div>
